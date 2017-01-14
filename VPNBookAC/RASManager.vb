@@ -11,6 +11,7 @@ Public Class RasManager
     Public Property IsConnected As Boolean = False
     Public Property ConnectedServerIp As IPAddress
     Public Property ConnectedClientIp As IPAddress
+
     Protected WithEvents PhoneBook As New RasPhoneBook
     Protected PhoneBookPath As String = RasPhoneBook.GetPhoneBookPath(RasPhoneBookType.AllUsers)
     Protected ConnectionHandle As RasHandle
@@ -114,7 +115,8 @@ Public Class RasManager
         ElseIf (e.Error IsNot Nothing) Then
             Console.WriteLine(e.Error.ToString())
         ElseIf (e.Connected) Then
-            Console.WriteLine("Connection successful!")
+            Console.WriteLine(vbCrLf & "Connection successful!" & vbCrLf)
+            Console.WriteLine("Press return to terminate and remove temp VPN.")
         End If
         If (Not e.Connected) Then
             Console.WriteLine("Not connected :(")
