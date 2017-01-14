@@ -6,3 +6,5 @@ The process is fully automated and the temporary VPN connection is removed once 
 
 # Screenshots
 ![untitled](https://cloud.githubusercontent.com/assets/2856413/21958555/a899cd7c-da65-11e6-9162-80f8cd746663.png)
+
+![untitled](https://cloud.githubusercontent.com/assets/2856413/21958724/a715e81a-da69-11e6-86af-ebf51647e6c4.png)
