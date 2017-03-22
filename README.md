@@ -5,7 +5,7 @@ Allows the user to select the desired free servers, afterwhich it adds a new "te
 The process is fully automated and the temporary VPN connection is removed once you decide to stop it.
 
 # Download
-You can either clone the repo and compile yourself, or check the "bin" directory for the debug/release versions. Make sure you download both files included in each directory.
+https://github.com/moorer2k/VPNBook-AutoConnector/releases
 
 # Screenshots
 ![untitled](https://cloud.githubusercontent.com/assets/2856413/21958555/a899cd7c-da65-11e6-9162-80f8cd746663.png)
